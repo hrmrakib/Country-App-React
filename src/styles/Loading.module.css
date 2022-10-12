@@ -1,0 +1,11 @@
+.spinner {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+@media (max-width: 668px) {
+  .spinner {
+    top: 5px;
+    right: 6px;
+  }
+}

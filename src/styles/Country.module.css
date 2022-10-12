@@ -1,0 +1,57 @@
+.country {
+  background-color: blueviolet;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: 0.9s;
+}
+.country:hover {
+  transform: scale(1.03);
+  transition-duration: 450ms;
+}
+.country .flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.country img {
+  width: 300px;
+  padding: 8px 2px;
+  height: 230px;
+  margin: 0 auto;
+}
+.country h2 {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: "Montserrant", sans-serif;
+}
+.country p {
+  line-height: 10px;
+  font-size: 17px;
+  font-family: "Montserrant", sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex button {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: "Montserrant", sans-serif;
+  padding: 4px 15px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  background-color: springgreen;
+  color: #000;
+  transition: 0.3s;
+}
+.flex button:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
+  color: #fff;
+  background-color: rgb(250, 42, 42);
+}
